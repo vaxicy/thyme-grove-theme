@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Thyme Grove Theme",
+  "version": "1.0.0",
+  "description": "An earthy olive-green Chrome theme in four herbal tones — soft sage chrome over a pale thyme grove.",
+  "icons": {
+    "128": "logo/logo.png"
+  },
+  "theme": {
+    "colors": {
+      "frame":                        [178, 189, 126],
+      "frame_inactive":               [195, 205, 149],
+      "toolbar":                      [198, 208, 149],
+      "tab_text":                     [47, 58, 40],
+      "bookmark_text":                [47, 58, 40],
+      "ntp_background":               [217, 210, 139],
+      "ntp_text":                     [47, 58, 40],
+      "ntp_link":                     [74, 87, 65],
+      "ntp_header":                   [178, 189, 126],
+      "button_background":            [178, 189, 126],
+      "button_background_secondary":  [198, 208, 149],
+      "omnibox_background":           [245, 242, 220],
+      "omnibox_text":                 [47, 58, 40],
+      "toolbar_button_icon":          [47, 58, 40]
+    },
+    "properties": {
+      "ntp_button_background":    [142, 145, 98],
+      "ntp_button_hover":         [125, 128, 84],
+      "ntp_logo_alternate":       1,
+      "ntp_single_row_shortcuts": true
+    },
+    "color_scheme": "light",
+    "default_color_scheme": "light"
+  }
+}
