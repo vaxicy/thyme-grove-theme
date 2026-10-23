@@ -116,11 +116,9 @@ SVG_01 = svg_open("""
   %s
   %s
 </g>
-<path d="M128 226 q6 -18 20 -26" stroke="%s" stroke-width="5" stroke-linecap="round" fill="none"/>
 """ % (MOSS, OLIVE, SAGE, SHADOW,
        stem(*STEM, width=7, color=MOSS),
-       sprig(*STEM, pairs=6, leaf_len=40, fill="url(#lf1)", vein=MOSS),
-       SAGE))
+       sprig(*STEM, pairs=6, leaf_len=40, fill="url(#lf1)", vein=MOSS)))
 
 SVG_02 = svg_open("""
 <defs>
